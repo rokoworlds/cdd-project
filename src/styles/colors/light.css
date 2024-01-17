@@ -1,0 +1,8 @@
+/* Colors Light */
+
+:root {
+    color-scheme: light;
+
+    --color-back-primary: var(--color-light);
+    --color-text-primary: var(--color-dark);
+}

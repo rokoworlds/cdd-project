@@ -1,0 +1,8 @@
+/* Main CSS */
+
+/* Global */
+@import url('/src/styles/global/modal.css');
+
+/* Colors */
+@import url('/src/styles/colors/index.css');
+

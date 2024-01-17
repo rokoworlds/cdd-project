@@ -1,0 +1,19 @@
+/* Colors */
+
+
+:root {
+    --color-black: #141414;
+    --color-dark: #323437;
+    /* --color-dark: #292929; */
+    --color-darker: #1F1F1F;
+    --color-white: #FFFFFF;
+    /* --color-light: #d1d0c5; */
+    --color-light: #F5F5F5;
+    --color-lightless: #CCCCCC;
+    --color-accent: #ACCB9F;
+    --color-project-one: #61988E;
+    --color-project-two: #CFD4B0;
+    --color-project-three: #FF9F1C;
+    --color-project-four: #D7DEEA;
+
+}
