@@ -2,7 +2,7 @@
 
 
 /* Global */
-@import url('/src/styles/global/modal.css');
+@import url('/src/styles/global/normalize.css');
 
 /* Colors */
 @import url('/src/styles/colors/index.css');
