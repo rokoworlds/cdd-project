@@ -1,0 +1,25 @@
+---
+import Navbar from "../components/Navbar.astro";
+import Footer from "../components/Footer.astro";
+---
+
+<!DOCTYPE html>
+<html class="page" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cddmoldova.com</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display:wght@400;600;900&display=swap" rel="stylesheet">
+</head>
+<body class="page__body">
+    <header class="header page__header">
+        <Navbar />
+    </header>
+    <main class="page__main">
+        <slot />
+    </main>
+    <Footer />
+</body>
+</html>
