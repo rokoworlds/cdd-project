@@ -18,6 +18,11 @@
             border-radius: 8px;
             z-index: 1000;
             border: var(--border);
+
+            @include mobile {
+                left: 5%;
+                width: 90%;
+            }
         }
 
         &__logo {
@@ -42,27 +47,5 @@
             }
         }
 
-        &__buttons {
-            display: flex;
-            gap: 5px;
-        }
 
-        &__button {
-            margin: 0;
-            padding: 0;
-            font-family: inherit;
-            color: var(--color-dark);
-            background-color: transparent;
-            border: none;
-            cursor: pointer;
-
-            @include hover {
-                text-decoration: underline var(--color-dark) 0.5px;
-            }
-            
-            &:not(:last-child){
-                border-right: 0.5px solid var(--color-dark);
-                padding-right: 5px;
-            }
-        }
     } 
